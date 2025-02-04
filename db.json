@@ -1,0 +1,185 @@
+{
+  "users": [
+    {
+      "id": "f6f8956a-0571-49fe-baff-099944ac7147",
+      "nombre": "Juan Perez",
+      "username": "juan123",
+      "email": "juan@example.com",
+      "telefono": "123456789",
+      "edad": 25,
+      "password": "$2a$10$LvSBD1mHViUGM75Nulb01e0IxP8fe2rz4LlNNgOtg6gIFRCRGns3i"
+    },
+    {
+      "id": "7eef9095-fdbe-49fd-b2d2-6b51d2fbe71c",
+      "nombre": "Dario",
+      "username": "dario9932",
+      "email": "dario@gmail.com",
+      "telefono": "123456789",
+      "edad": 20,
+      "password": "$2a$10$Ko1rMoQRO1bkjyR2g1el5e6cSvCUPlYlg80syIQVM7omGsiMINKTK"
+    },
+    {
+      "id": "84868c3f-290b-497a-b139-0a7a0eb9c18c",
+      "nombre": "ruben",
+      "username": "ruben",
+      "email": "ruben@gmail.com",
+      "telefono": "123456789",
+      "edad": 20,
+      "password": "$2a$10$/TpwCjPZWy6EyezF09kvt.k9sO.LzUf881k55747Of2HqHeBLgP16"
+    },
+    {
+      "id": "21d62ceb-7da3-422b-9bd1-adc3db07de8f",
+      "nombre": "jhair",
+      "username": "jhair09",
+      "email": "jhair@gmail.com",
+      "telefono": "1234567890",
+      "edad": 21,
+      "password": "$2a$10$exfhazOwwDRjCL8LXZNdBuiYG/YW5vMeoAlPK9tKX5aNiQtu5EoOi"
+    },
+    {
+      "id": "7ed2bf27-3ffd-47f5-8208-7c36ab8ef3c3",
+      "nombre": "Carlos Mario",
+      "username": "Cato",
+      "email": "cars06ma15@gmail.com",
+      "telefono": "96512345678",
+      "edad": 20,
+      "password": "$2a$10$a8JqmRLDgQ/ZASr17fXnM.KdGwU5t5W7VaqeJ6Uoq76wbU7VVwnsm"
+    },
+    {
+      "id": "c726a57c-d168-42a5-9fa5-014d473f6829",
+      "nombre": "Ruben Dario",
+      "username": "rubendario",
+      "email": "rubendario@gmail.com",
+      "telefono": "1234567890",
+      "edad": 19,
+      "password": "$2a$10$tzrB0hd3t5oIHxIhXAzcueq9FLwV2DtM/xkBGSW9F./uY4de/FAS6"
+    }
+  ],
+  "cars": [
+    {
+      "id": "898c1355-154e-4382-8e2b-365e53135c7f",
+      "idUsuario": "f6f8956a-0571-49fe-baff-099944ac7147",
+      "nombre": "Chevy",
+      "modelo": "GT",
+      "color": "Amarillo",
+      "estado": "sin caja",
+      "imagenes": [
+        "/uploads/cars/ad8336dc-7d21-4d23-9403-6320fd263099.png"
+      ]
+    },
+    {
+      "id": "2db410fb-2a8f-4366-9177-94e38790fa2b",
+      "idUsuario": "f6f8956a-0571-49fe-baff-099944ac7147",
+      "nombre": "prueba",
+      "modelo": "Modelo de prueba",
+      "color": "verde",
+      "estado": "sin_caja",
+      "imagenes": [
+        "/uploads/cars/4015d8f2-b24b-402b-abc2-b20581d12019.jpg"
+      ]
+    },
+    {
+      "id": "4e5fa945-8bac-4363-9ed5-dbeeb1b50860",
+      "idUsuario": "f6f8956a-0571-49fe-baff-099944ac7147",
+      "nombre": "prueba",
+      "modelo": "PR",
+      "color": "Amarillo",
+      "estado": "sin caja",
+      "imagenes": [
+        "/uploads/cars/03cddc1f-6a38-487a-affb-5a3117c5c1f4.png"
+      ]
+    },
+    {
+      "id": "53b0d07f-63d0-4ac5-af7b-a266866a48b6",
+      "idUsuario": "f6f8956a-0571-49fe-baff-099944ac7147",
+      "nombre": "prueba",
+      "modelo": "PR",
+      "color": "Amarillo",
+      "anioFabricacion": "2012",
+      "estado": "sin caja",
+      "imagenes": [
+        "/uploads/cars/b1d55072-9b35-402c-95e8-59dbc487efbc.png"
+      ]
+    },
+    {
+      "id": "dd09e0d8-49b1-4291-af31-ccb459e56961",
+      "idUsuario": "f6f8956a-0571-49fe-baff-099944ac7147",
+      "nombre": "prueba 2",
+      "modelo": "prueba 2",
+      "color": "cafe",
+      "estado": "sin_caja",
+      "imagenes": [
+        "/uploads/cars/061b0c5e-4060-418b-8ba3-e39cbdb1b345.jpg"
+      ]
+    },
+    {
+      "id": "19b7e9cd-0693-4a0c-a59f-2afead298b64",
+      "idUsuario": "21d62ceb-7da3-422b-9bd1-adc3db07de8f",
+      "nombre": "bochomovil",
+      "modelo": "sin modelo",
+      "color": "blanco",
+      "estado": "sin_caja",
+      "imagenes": [
+        "/uploads/cars/2be9768c-74b7-4f71-b469-4d0c911dac42.jpg"
+      ]
+    },
+    {
+      "id": "1c760af9-b2f6-4f9d-a0ec-eec0bb2e8fa2",
+      "idUsuario": "7ed2bf27-3ffd-47f5-8208-7c36ab8ef3c3",
+      "nombre": "CatoMovil",
+      "modelo": "F1",
+      "color": "Negro",
+      "estado": "nuevo",
+      "imagenes": [
+        "/uploads/cars/40557d34-a6b2-42f6-9dd2-12e4bd5026bc.jpg"
+      ]
+    },
+    {
+      "id": "c5b6c17e-d8b9-43bb-b4b0-6c71e9b6a1f2",
+      "idUsuario": "7ed2bf27-3ffd-47f5-8208-7c36ab8ef3c3",
+      "nombre": "Prueba",
+      "modelo": "Test",
+      "color": "cafe",
+      "estado": "usado",
+      "imagenes": [
+        "/uploads/cars/bc73b3ef-3b8f-45a0-844c-e14a815437c7.jpg"
+      ]
+    },
+    {
+      "id": "a453639d-f3c5-4c8d-8eba-54c139078982",
+      "idUsuario": "f6f8956a-0571-49fe-baff-099944ac7147",
+      "nombre": "prueba3 ",
+      "modelo": "...",
+      "color": "...",
+      "anioFabricacion": "2023",
+      "estado": "nuevo",
+      "imagenes": [
+        "/uploads/cars/ab7aaa50-56e9-4150-b7e2-e6794f54f7e4.jpg"
+      ]
+    },
+    {
+      "id": "62376d00-42f6-429b-b8d4-01db457e9d76",
+      "idUsuario": "7ed2bf27-3ffd-47f5-8208-7c36ab8ef3c3",
+      "nombre": "prueba 3",
+      "modelo": "2",
+      "color": "..",
+      "anioFabricacion": "2021",
+      "estado": "nuevo",
+      "imagenes": [
+        "/uploads/cars/003785d5-00d0-4d3b-bf75-53a508cd28bc.jpg"
+      ]
+    },
+    {
+      "id": "ace60ea1-7536-46d7-a9d1-2be8743d6f8e",
+      "idUsuario": "c726a57c-d168-42a5-9fa5-014d473f6829",
+      "nombre": "Carro Verde",
+      "modelo": "Toyota",
+      "color": "verde",
+      "anioFabricacion": "2021",
+      "estado": "sin_caja",
+      "imagenes": [
+        "/uploads/cars/52c59727-7af5-4ceb-b339-2f3c1fc7846a.jpg"
+      ]
+    }
+  ]
+}

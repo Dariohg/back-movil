@@ -9,10 +9,6 @@ export class UserRepository {
         return db.data.users.find((user) => user.id === id);
     }
 
-    static findByUsername(username) {
-        return db.data.users.find((user) => user.username === username);
-    }
-
     static findByEmail(email) {
         return db.data.users.find((user) => user.email === email);
     }
@@ -21,5 +17,9 @@ export class UserRepository {
         db.data.users.push(user);
         db.write();
         return user;
+    }
+
+    static findByUsername(username) {
+        return db.data.users.find((user) => user.username === username);
     }
 }
